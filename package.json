@@ -4,9 +4,11 @@
   "packageManager": "pnpm@11.8.0",
   "scripts": {
     "dev": "turbo dev",
-    "build": "turbo build"
+    "build": "turbo build",
+    "dev:reset": "bash scripts/dev-reset.sh"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
     "turbo": "^2.9.18"
   }
 }
